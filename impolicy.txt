@@ -1,0 +1,17 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "eks:CreateCluster"
+      ],
+      "Resource": [
+        "arn:aws:eks:us-east-1:005371256244:cluster/terraform-eks-demo"
+      ]
+    }
+  ]
+}
+
+
+#create and attach this policy to the role
